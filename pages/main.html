@@ -3,19 +3,36 @@
     <head>
         <meta chrset="utf-8">
         <title>Это моя первая веб-страница</title>
+        <style type="text/css">
+            .block1 { 
+            width: 2000px; 
+            background:rgb(214, 217, 214);
+            padding: 5px;
+            padding-right: 20px; 
+            border: solid 1px black; 
+            float: left;} 
+            .block2 { 
+            width: 150px; 
+            background: rgb(191, 195, 194); 
+            padding: 5px; 
+            border: solid 1px black; 
+            float: left; }
+            li {
+            list-style-type: none  }
+        </style>
     </head>
+    <!--Попробовал поиграться со стилями-->
     <body bgcolor="white" text="black">
         <header>
+            <div class="block1">
                 <img src="https://static.tildacdn.com/tild6539-3361-4761-a434-353330643930/skillfactory_logo_bl.svg" width="180" height="45"/>
-                <button><a href="#"><big>Главное меню</big></a></button>
-                <button><a href="../pages/about.html"><big>Обо мне</big></a></button>
-                <button><a href="../pages/contacts.html"><big>Контакты</big></a></button>
+                <button><div class="block2"><a href="#"><big>Главное меню</big></a></div></button>
+                <button><div class="block2"><a href="../pages/about.html"><big>Обо мне</big></a></div></button>
+                <button><div class="block2"><a href="../pages/contacts.html"><big>Контакты</big></a></div></button>
+            </div>
                 <hr>
         </header>
-         <!--На сколько я понял, необходимо делать картинки именно через ссылку, тк дает 
-        совершенно другой вид
-        Но у меня тогда вопрос, как мне все аккуратно сделать в шапке? имею ввиду "buttons" и картинки? 
-        Все делается через стили или есть другая возможность?-->
+         <!--Есть ли необходимость делать картинку кликабельной?-->
         <main>
             <h1>Моя первая веб-страница</h1>
             <h2>Коротко обо мне</h2>
@@ -31,7 +48,7 @@
 
                 font-size:...
             }
-            К сожалению так и не получилось, или это все делается через стили?
+            К сожалению так и не получилось,можете объяснить как это делается, или это также через стили?
             -->
             <h2>Что я хочу от этого курса?</h2>
             <p><big>Я давно задавался вопросом &ldquo;а что делать дальше?&rdquo;

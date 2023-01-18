@@ -3,22 +3,40 @@
     <head>
         <meta chrset="utf-8">
         <title>My first web-site</title>
+        <style type="text/css">
+            .block1 { 
+            width: 2000px; 
+            background:rgb(214, 217, 214);
+            padding: 5px;
+            padding-right: 20px; 
+            border: solid 1px black; 
+            float: left;} 
+            .block2 { 
+            width: 150px; 
+            background: rgb(191, 195, 194); 
+            padding: 5px; 
+            border: solid 1px black; 
+            float: left; }
+        </style>
     </head>
     <body>
         <header>
+            <div class="block1">
             <img src="https://static.tildacdn.com/tild6539-3361-4761-a434-353330643930/skillfactory_logo_bl.svg" width="180" height="45"/>
-            <button><a href="../pages/main.html"><big>Главное меню</big></a></button>
-            <button><a href="../pages/about.html"><big>Обо мне</big></a></button>
-            <button><a href="#"><big>Контакты</big></a></button>
+            <button><div class="block2"><a href="../pages/main.html"><big>Главное меню</big></a></div></button>
+            <button><div class="block2"><a href="../pages/about.html"><big>Обо мне</big></a></div></button>
+            <button><div class="block2"><a href="#"><big>Контакты</big></a></div></button>
+            </div>
             <hr>
         </header>
         <main>
-            <h1>How you can find us</h1>
+            <h1>Всегда рад вам</h1>
             <address>
-            190000, Санкт-Петербург,<br>
-            Невский проспект, д.1<br>
-            555-55-55<br>
+            <big>125430, Москва,<br>
+            Ангелов переулок, д.6<br>
+            atlantaleksey17@gmail.com<br></big>
             </address>
+            <hr>
         </main>
         <footer>
             <span>&copy;&nbsp;Skillfactory</span>
